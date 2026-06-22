@@ -1,0 +1,31 @@
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+.env
+
+# Database and SQLite
+*.db
+*.sqlite3
+chroma_db/
+
+# IDE/Editor files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build outputs
+dist/
+build/
+bin/
+obj/

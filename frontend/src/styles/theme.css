@@ -1,0 +1,116 @@
+:root {
+  --navy: #1F2A44;
+  --navy-dark: #09152e;
+  --off-white: #F7F4EE;
+  --warm-beige: #E8DCC8;
+  --soft-gold: #C6A75E;
+  --soft-gold-dark: #b89547;
+
+  --text-main: #191c1d;
+  --text-muted: #45464d;
+  --border-soft: rgba(31, 42, 68, 0.12);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background: var(--off-white);
+  color: var(--text-main);
+  margin: 0;
+}
+
+.page-bg {
+  background: var(--off-white);
+}
+
+.hero-navy {
+  background: var(--navy);
+  color: white;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 10px 30px rgba(31, 42, 68, 0.08);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+.input-glass {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(31, 42, 68, 0.16);
+  transition: all 0.2s ease;
+}
+
+.input-glass:focus {
+  border-color: var(--navy);
+  box-shadow: 0 0 0 4px rgba(31, 42, 68, 0.06);
+  outline: none;
+}
+
+.btn-primary {
+  background: var(--navy);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--navy-dark);
+}
+
+.btn-gold {
+  background: var(--soft-gold);
+  color: white;
+}
+
+.btn-gold:hover {
+  background: var(--soft-gold-dark);
+}
+
+.bg-soft-page {
+  background: var(--off-white);
+}
+
+.bg-warm-beige {
+  background: var(--warm-beige);
+}
+
+.text-navy {
+  color: var(--navy);
+}
+
+.bg-navy {
+  background: var(--navy);
+}
+
+.bg-gold {
+  background: var(--soft-gold);
+}
+
+.text-muted-custom {
+  color: var(--text-muted);
+}
+
+
+body {
+  font-family: "Manrope", sans-serif;
+  background: #F7F4EE;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 10px 30px rgba(31, 42, 68, 0.08);
+}
+
+.input-glass {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(31, 42, 68, 0.16);
+}

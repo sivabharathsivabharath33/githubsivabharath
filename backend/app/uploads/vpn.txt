@@ -1,0 +1,6 @@
+VPN Access Policy
+
+Employees can request VPN access by creating an IT support ticket.
+The ticket must include employee ID, project name, manager approval, and business reason.
+If VPN is not connecting, employees should restart the VPN client, check internet connection, and confirm MFA authentication.
+For urgent client work, the ticket priority should be marked as High.
